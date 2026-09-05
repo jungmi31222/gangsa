@@ -5,3 +5,6 @@ node_modules/
 *.pdf
 *.hwp
 *.png
+!assets/*.png
+tmp/
+read_hwp.py

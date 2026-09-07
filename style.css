@@ -4,3 +4,15 @@
 @media(max-width:700px){h1{font-size:33px}.portrait-word{left:58px;top:62px;font-size:11px}}
 .portrait-word{display:none}
 .google-form-cta{align-self:center}.google-form-cta .btn{justify-content:center}.google-form-cta p{font-size:13px;margin:15px 0 0}
+/* TRUST: readable metrics and a secondary profile action. */
+.trust .metrics{grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.trust .metrics>div{min-width:0;padding-right:18px}
+.trust .metrics strong{display:inline-flex;align-items:baseline;gap:4px;white-space:nowrap}
+.trust .metrics strong span{margin-left:0;letter-spacing:-.025em}
+.trust .metrics p{font-size:14px;line-height:1.75}
+.trust .metric-note{display:block;margin-top:7px;font-size:12px;line-height:1.7;color:#b6c9ae}
+.trust-actions{margin-top:40px}
+.trust .profile-link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 22px;border:1px solid #819977;border-radius:4px;color:#ddebaf;font-size:14px;line-height:1.6;transition:background .2s,border-color .2s}
+.trust .profile-link:hover{background:#ffffff0d;border-color:#ddebaf}
+@media(max-width:700px){.trust .metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 18px}.trust .metrics>div{padding:0}.trust .metrics p{font-size:14px}.trust .metric-note{font-size:12px}.trust-actions{margin-top:32px}.trust .profile-link{min-height:48px}}
+@media(max-width:360px){.trust .metrics{grid-template-columns:1fr}.trust .profile-link{width:100%}}

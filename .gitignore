@@ -3,6 +3,7 @@
 .env.*
 node_modules/
 *.pdf
+!assets/kim-jungmi-profile.pdf
 *.hwp
 *.png
 !assets/*.png

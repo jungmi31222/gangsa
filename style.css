@@ -38,3 +38,9 @@
 
 .learning-stories .case-body{padding:28px 34px 34px}
 @media(max-width:700px){.learning-stories .case-body{padding:24px 25px 25px}}
+/* Signature programs: full landscape images, unchanged source colors. */
+#programs .program{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:48px}
+#programs .program-photo{margin:0;align-self:start;aspect-ratio:3/2;min-width:0}
+#programs .program-photo img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+@media(max-width:1000px){#programs .program{gap:30px}}
+@media(max-width:700px){#programs .program{grid-template-columns:minmax(0,1fr);gap:22px}}

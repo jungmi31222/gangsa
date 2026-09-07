@@ -30,3 +30,11 @@
 #about .profile-link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;max-width:100%;padding:11px 22px;border:1px solid #829384;border-radius:4px;color:var(--green);background:transparent;font-size:14px;line-height:1.6;transition:background .2s,border-color .2s}
 #about .profile-link:hover{background:#183f3608;border-color:var(--green)}
 @media(max-width:700px){#about .about-profile-actions{margin-top:28px}}
+/* Learning stories: original classroom photographs, cropped only in CSS. */
+.learning-stories .case-grid article{padding:0;overflow:hidden}
+.learning-stories .case-photo{position:relative;aspect-ratio:8/5;margin:0;overflow:hidden;background:#e4e9d9}
+.learning-stories .case-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.learning-stories .case-photo-smartphone img{object-position:0% 50%;transform:scale(1.5);transform-origin:left center}
+.learning-stories .case-photo-storybook img{object-position:100% 50%;transform:scale(2.1);transform-origin:right center}
+.learning-stories .case-body{padding:28px 34px 34px}
+@media(max-width:700px){.learning-stories .case-body{padding:24px 25px 25px}}

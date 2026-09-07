@@ -3,3 +3,4 @@
 .portrait-word{left:66px;top:72px}
 @media(max-width:700px){h1{font-size:33px}.portrait-word{left:58px;top:62px;font-size:11px}}
 .portrait-word{display:none}
+.google-form-cta{align-self:center}.google-form-cta .btn{justify-content:center}.google-form-cta p{font-size:13px;margin:15px 0 0}

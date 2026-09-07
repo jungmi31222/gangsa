@@ -23,3 +23,4 @@
 #teach .teach-grid p{margin:0;align-self:start}
 #teach .teach-grid .arrow{margin:24px 0 0;align-self:end;justify-self:end;line-height:1}
 @media(max-width:700px){#teach .teach-grid>a{padding:22px 15px 20px}#teach .teach-grid small{font-size:11px;margin-bottom:20px}#teach .teach-grid h3{margin-bottom:12px}#teach .teach-grid .arrow{margin-top:22px}}
+.references .references-note{margin:28px 0 0;font-size:14px;color:var(--muted)}

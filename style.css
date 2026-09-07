@@ -16,3 +16,10 @@
 .trust .profile-link:hover{background:#ffffff0d;border-color:#ddebaf}
 @media(max-width:700px){.trust .metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 18px}.trust .metrics>div{padding:0}.trust .metrics p{font-size:14px}.trust .metric-note{font-size:12px}.trust-actions{margin-top:32px}.trust .profile-link{min-height:48px}}
 @media(max-width:360px){.trust .metrics{grid-template-columns:1fr}.trust .profile-link{width:100%}}
+/* WHAT I TEACH: aligned editorial cards, without decorative icons. */
+#teach .teach-grid>a{display:grid;grid-template-rows:subgrid;grid-row:span 4;row-gap:0;padding:26px 22px 22px;min-width:0}
+#teach .teach-grid small{position:static;display:block;font-size:12px;line-height:1.5;letter-spacing:.12em;font-variant-numeric:tabular-nums;color:var(--muted);margin:0 0 24px}
+#teach .teach-grid h3{margin:0 0 14px;align-self:start}
+#teach .teach-grid p{margin:0;align-self:start}
+#teach .teach-grid .arrow{margin:24px 0 0;align-self:end;justify-self:end;line-height:1}
+@media(max-width:700px){#teach .teach-grid>a{padding:22px 15px 20px}#teach .teach-grid small{font-size:11px;margin-bottom:20px}#teach .teach-grid h3{margin-bottom:12px}#teach .teach-grid .arrow{margin-top:22px}}

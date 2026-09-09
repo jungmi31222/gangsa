@@ -1,0 +1,17 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>문의 접수 알림</title></head><body style="margin:0;background:#f8f7f1;color:#183f36;font-family:Arial,sans-serif;line-height:1.7">
+<div style="max-width:600px;margin:0 auto;padding:24px;box-sizing:border-box">
+<h1 style="font-size:24px">새로운 강의 문의</h1><p>{{from_name}} 님의 문의가 접수되었습니다.</p>
+<table style="width:100%;border-collapse:collapse;table-layout:fixed;font-size:15px">
+<tr><th style="text-align:left;width:30%;padding:8px;border-bottom:1px solid #ccd4c9">이름</th><td style="padding:8px;border-bottom:1px solid #ccd4c9;overflow-wrap:anywhere">{{from_name}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">이메일</th><td style="padding:8px;border-bottom:1px solid #ccd4c9;overflow-wrap:anywhere">{{from_email}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">연락처</th><td style="padding:8px;border-bottom:1px solid #ccd4c9;overflow-wrap:anywhere">{{phone}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">소속</th><td style="padding:8px;border-bottom:1px solid #ccd4c9;overflow-wrap:anywhere">{{company}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">문의 유형</th><td style="padding:8px;border-bottom:1px solid #ccd4c9">{{inquiry_type}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">수신 메일</th><td style="padding:8px;border-bottom:1px solid #ccd4c9;overflow-wrap:anywhere">{{to_email}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">접수 시각</th><td style="padding:8px;border-bottom:1px solid #ccd4c9">{{submitted_at}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">유입 페이지</th><td style="padding:8px;border-bottom:1px solid #ccd4c9;overflow-wrap:anywhere">{{page_url}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">개인정보 동의</th><td style="padding:8px;border-bottom:1px solid #ccd4c9">{{privacy_agreed}}</td></tr>
+<tr><th style="text-align:left;padding:8px;border-bottom:1px solid #ccd4c9">동의 시각</th><td style="padding:8px;border-bottom:1px solid #ccd4c9">{{agreed_at}}</td></tr>
+</table><h2 style="font-size:18px">문의 내용</h2><div style="white-space:pre-wrap;overflow-wrap:anywhere">{{message}}</div>
+<p style="margin-top:28px"><a href="mailto:{{reply_to}}" style="display:inline-block;background:#183f36;color:#ffffff;padding:12px 24px;text-decoration:none">이메일로 회신하기</a></p>
+</div></body></html>

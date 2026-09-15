@@ -62,3 +62,26 @@
 #inquiry-form :focus-visible{outline:2px solid #dfeab0;outline-offset:3px}
 #inquiry-status{font-size:15px;line-height:1.7;min-height:1.7em}
 @media(max-width:700px){#inquiry-form .inquiry-fields{grid-template-columns:1fr;gap:0}}
+
+/* 동화책 상세 페이지 전용 스타일: 메인 페이지에는 적용하지 않습니다. */
+.course-page .course-intro{padding-top:38px;padding-bottom:70px}
+.course-page .course-back{display:inline-block;font-size:12px;color:var(--muted);margin-bottom:44px}
+.course-page .course-hero{display:grid;grid-template-columns:1fr 1.15fr;gap:54px;align-items:center}
+.course-page .course-hero figure{margin:0}
+.course-page .course-hero img{display:block;width:100%;height:auto}
+.course-page .course-hero h1{font-size:clamp(36px,4vw,54px)}
+.course-page .course-hero .lead{font-size:16px}
+.course-page .course-facts{display:grid;grid-template-columns:repeat(3,1fr);margin:60px 0 0;border-top:1px solid var(--line);padding-top:28px;gap:30px}
+.course-page .course-facts dt{font-size:12px;color:var(--muted);margin-bottom:12px}
+.course-page .course-facts dd{margin:0;font-size:18px}
+.course-page .course-goals{display:grid;grid-template-columns:1fr 1.15fr;gap:54px}
+.course-page .steps p{font-size:15px}
+.course-page .course-curriculum{list-style:none;padding:0;margin:46px 0 0}
+.course-page .course-curriculum>li{display:grid;grid-template-columns:90px 1fr;gap:28px;padding:32px 0;border-top:1px solid var(--line)}
+.course-page .course-number{color:#7b8b64;font-size:28px;font-weight:400;line-height:1.4}
+.course-page .course-curriculum h3{margin-bottom:18px}
+.course-page .course-curriculum ul{padding-left:20px;line-height:2;color:var(--muted);font-size:16px}
+.course-page .course-guide h3:not(:first-child){margin-top:32px}
+.course-page .course-end{text-align:center}
+.course-page .course-end .btn{margin-top:16px}
+@media(max-width:700px){.course-page .course-hero,.course-page .course-goals{grid-template-columns:1fr;gap:30px}.course-page .course-intro{padding-top:26px;padding-bottom:50px}.course-page .course-back{margin-bottom:30px}.course-page .course-facts{grid-template-columns:1fr;gap:20px;margin-top:32px}.course-page .course-facts>div{display:grid;grid-template-columns:85px 1fr;gap:12px}.course-page .course-facts dd{font-size:16px}.course-page .course-curriculum>li{grid-template-columns:36px 1fr;gap:15px}.course-page .course-curriculum h3{font-size:21px}.course-page .course-curriculum ul{font-size:15px}.course-page .actions{flex-wrap:wrap}}
